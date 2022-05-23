@@ -20,5 +20,18 @@ This standard uses grayscale pixel values to represent instructions and data. It
    - 1 Bytewise operations:
    - 2 Interupts:
    - 3 Syscalls:
+ - Data type declaration:
+   - 0 Memory Location:
+    - 0 Stack
+    - 1 Heap
+    - 2 Memory Mapped Location
+   - 1 Primitives:
+    - 
+   - 2 Custom Length:
+   - 3 ID:
+    - 0 Numeric ID:
+     - 8 byte (64 bit) wide value used as an internal reference. 
+    - 1 Character ID:
+     - Null terminated char array ID for human readable code. May only use ascii characters in range of 0 to 255. 
 
 **NOT FINALIZED**
